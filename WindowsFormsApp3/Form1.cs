@@ -53,6 +53,10 @@ namespace WindowsFormsApp3
             human = new HumanGenerator().GetHuman(1);
             human.SayHello();
 
+            Abstest test222 = new Test(1,2);
+            Console.WriteLine(test222.GetArea());
+            Console.WriteLine(test222.Notabstest());
+
         }
     }
 }

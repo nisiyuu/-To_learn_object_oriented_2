@@ -10,4 +10,5 @@ namespace WindowsFormsApp3
     {
         String SayHello();//String型の戻り値を返す
     }
+
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstest.cs" />
     <Compile Include="Chinese.cs" />
     <Compile Include="HumanGenerator.cs" />
     <Compile Include="Japanese.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="IHuman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
