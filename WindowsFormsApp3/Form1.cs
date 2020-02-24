@@ -57,6 +57,11 @@ namespace WindowsFormsApp3
             Console.WriteLine(test222.GetArea());
             Console.WriteLine(test222.Notabstest());
 
+            DicBasic dic = new DicBasic();
+            dic.Run();
+
+            double d = Test.Pi;//クラスフィールド　newしなくても使える
+            Console.WriteLine(Test.Pi);
         }
     }
 }

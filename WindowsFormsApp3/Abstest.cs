@@ -18,7 +18,7 @@ namespace WindowsFormsApp3
         }
         public abstract double GetArea();//抽象メソッドだから継承先で必ず実装する
 
-        public virtual String Notabstest()//抽象メソッドではないから継承先で実装しなくてもいい。またvirtualはオーバーライドする際に抽象メソッド側につける
+        public virtual String Notabstest()//抽象メソッドではないから継承先で実装しなくてもいい。(してもいい。）またvirtualはオーバーライドする際に抽象メソッド側につける
         {
             return "notabs";
         }

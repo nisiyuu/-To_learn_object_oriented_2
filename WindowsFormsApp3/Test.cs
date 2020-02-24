@@ -21,6 +21,14 @@ namespace WindowsFormsApp3
         {
             return "changed";
         }
+
+
+        //クラスフィールドについて
+        public static double Pi = 3.14;
     }
 
 }
+
+//クラスフィールドは定義時にstaticをつけることでクラスから直接呼び出せるようにしたフィールド
+//読み取り専用かクラスそのものの状態管理に使う。
+

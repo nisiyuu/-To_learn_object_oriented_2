@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Abstest.cs" />
     <Compile Include="Chinese.cs" />
+    <Compile Include="DicBasic.cs" />
     <Compile Include="HumanGenerator.cs" />
     <Compile Include="Japanese.cs" />
     <Compile Include="Form1.cs">
