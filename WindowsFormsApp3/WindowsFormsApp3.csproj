@@ -50,6 +50,7 @@
     <Compile Include="Chinese.cs" />
     <Compile Include="DicBasic.cs" />
     <Compile Include="HumanGenerator.cs" />
+    <Compile Include="IteratorBasic.cs" />
     <Compile Include="Japanese.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

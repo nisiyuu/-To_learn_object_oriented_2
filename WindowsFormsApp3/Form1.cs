@@ -62,6 +62,10 @@ namespace WindowsFormsApp3
 
             double d = Test.Pi;//クラスフィールド　newしなくても使える
             Console.WriteLine(Test.Pi);
+
+
+            IteratorBasic ite = new IteratorBasic();
+            ite.Run();
         }
     }
 }

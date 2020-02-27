@@ -21,7 +21,7 @@ namespace WindowsFormsApp3
             Console.WriteLine(dic.ContainsKey("Rose"));
             Console.WriteLine(dic.ContainsValue("バラ"));
 
-            dic.Add("Tulip", "チューリップ"); //C#の配列は長さを変えられない。変えたいときはコレクションを使う。Addでデータを増やしている
+            dic.Add("Tulip", "チューリップ"); //C#の配列は長さを変えることが大変。変えたいときはコレクションを使う。Addでデータを増やしている。配列でもできる。
             dic["Sunflower"] = "向日葵";
 
             foreach (var key in dic.Keys)//https://docs.microsoft.com/ja-jp/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.8 Keysプロパティがある
