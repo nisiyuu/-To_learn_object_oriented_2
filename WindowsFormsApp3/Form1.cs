@@ -67,6 +67,15 @@ namespace WindowsFormsApp3
             IteratorBasic ite = new IteratorBasic();
             ite.Run();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var baseclass = new Base();
+            baseclass.Methoda();
+            var childclass = new Child();
+            baseclass = childclass;
+            baseclass.Methoda(); //アップキャストでChild型のオブジェクトをBase型の変数に代入する。baseclassはChild型がもつMethodb,Methodcへの参照を失う
+        }
     }
 }
 

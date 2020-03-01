@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstest.cs" />
+    <Compile Include="base.cs" />
+    <Compile Include="Child.cs" />
     <Compile Include="Chinese.cs" />
     <Compile Include="DicBasic.cs" />
     <Compile Include="HumanGenerator.cs" />
